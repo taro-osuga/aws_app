@@ -8,7 +8,7 @@ set :repo_url, 'https://github.com/taro-osuga/aws_app.git'
 # deployするブランチ。デフォルトはmasterなのでなくても可。
 set :branch, ENV['BRANCH'] || 'master'
 # deploy先のディレクトリ。
-set :deploy_to, '/var/www/AWS_app'
+set :deploy_to, '/var/www/achieve'
 # set :deploy_to, '/var/www/AWS_app'
 # シンボリックリンクをはるフォルダ・ファイル
 set :linked_files, %w{.env config/secrets.yml}
